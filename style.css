@@ -1,0 +1,118 @@
+*{
+    margin: 0; 
+}
+
+html, body{
+    width: 100%; 
+    height: 100%; 
+}
+body{
+    
+    padding-top: 175px; 
+    width:70%; 
+    margin: auto; 
+    color: white; 
+    font-family: 'Poppins', sans-serif;
+    /*background */
+    background-image: url(intro-component-with-signup-form-master/images/bg-intro-desktop.png); 
+    background-color: #d85b5b; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    background-size: cover; 
+}
+h1{
+    font-size: 55px; 
+    max-width: 700px; 
+}
+.everything{
+    
+    display: flex; 
+    justify-items: center; 
+    align-items: center; 
+}
+
+#description{
+    max-width:700px; 
+}
+.left-side{
+    max-width: 700px; 
+    padding-left: 100px; 
+}
+.free-trial{
+    
+    background-color: #7e3dc9; 
+    padding: 6px; 
+    margin-bottom: 20px; 
+    border-radius: 15px; 
+}
+.free-trial p{
+    margin-left: 15px; 
+}
+.form{
+    justify-content: center; 
+    align-items: center;
+    max-height: 500px; 
+    max-width: 400px;
+    background-color: white; 
+    border-radius: 10px; 
+  
+}
+
+input {
+     
+    padding:10px 200px 10px 5px; 
+   
+     
+    border : solid 2px #b7b7b7; 
+    background-color: #ffffff; 
+    margin: 10px; 
+    border-radius: 10px; 
+   
+}
+input:hover{
+    border: solid 2px #7e3dc9; 
+}
+button{
+    
+    color: white; 
+    cursor: pointer; 
+    background-color: #78d168;
+     padding:10px 120px; 
+    
+    margin: 10px; 
+    border-radius: 10px;
+    border: 0;
+}
+button:hover{
+     border: solid 2px #7e3dc9; 
+}
+
+.terms{
+    color: black; 
+    font-size:12px; 
+    margin: 10px; 
+}
+
+
+
+@media all and (max-width:900px){
+    #title h1{
+        font-size: 50px; 
+     
+    }
+    .everything {
+       flex-direction: column; 
+    }
+    body{
+        padding-top: 50px; 
+    }
+    .left-side{
+        margin-top: 20px; 
+       padding-left: 0px;  
+    }
+   
+    
+}
+
+
+
